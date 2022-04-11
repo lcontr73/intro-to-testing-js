@@ -15,8 +15,7 @@ describe('helloWorld', function() {
 });
 
 describe('sayHello', function() {
-    it("should never return 'number' when called", function() {
-        expect(sayHello()).not.toBe();
-
+    it('should be a defined function', function() {
+        expect(typeof sayHello).toBe('function');
 });
 });
