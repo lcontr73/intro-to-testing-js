@@ -13,3 +13,10 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+describe('sayHello', function() {
+    it("should never return 'number' when called", function() {
+        expect(sayHello()).not.toBe();
+
+});
+});
